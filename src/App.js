@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { purple, amber } from "@material-ui/core/colors";
+import { grey, amber } from "@material-ui/core/colors";
 import { createTheme , ThemeProvider } from "@material-ui/core/styles";
 import { CartProvider } from "./context/cart";
 import Navbar from "./components/Navbar";
@@ -15,7 +15,7 @@ import Checkout from "./pages/Checkout";
 const theme = createTheme ({
   palette: {
     primary: {
-      main: purple[900],
+      main: grey[900],
     },
     secondary: {
       main: amber[900],
